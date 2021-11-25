@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HS-Save-Loader", "HS-Save-Loader\HS-Save-Loader.csproj", "{2F78EFBA-0E32-4A25-AF1D-0E2D9B261D1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F78EFBA-0E32-4A25-AF1D-0E2D9B261D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F78EFBA-0E32-4A25-AF1D-0E2D9B261D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F78EFBA-0E32-4A25-AF1D-0E2D9B261D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F78EFBA-0E32-4A25-AF1D-0E2D9B261D1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56744B3F-F683-463A-817B-488435D0D431}
+	EndGlobalSection
+EndGlobal
