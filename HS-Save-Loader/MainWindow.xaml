@@ -30,7 +30,11 @@
 
         <TextBlock x:Name="CreatorName" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="255,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="18" TextAlignment="Center" Height="48" Width="93"><Run Text="By"/><LineBreak/><Run Text="imaperson"/></TextBlock>
 
-        <Image x:Name="CreatorImage" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="172" Margin="294,-6,-14,0" VerticalAlignment="Top" Width="172" Source="images/imaperson.png"/>
+        <Image x:Name="CreatorImage" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="172" Margin="294,-7,-14,0" VerticalAlignment="Top" Width="172" Source="images/imaperson.png" MouseDown="RefreshButton_Click">
+            <Image.ToolTip>
+                <ToolTip>Seems perfect for it to be me that triggers a debug refresh of the list on click ;)</ToolTip>
+            </Image.ToolTip>
+        </Image>
 
         <Button x:Name="LoadButton" Grid.ColumnSpan="2" Content="Load Backup" HorizontalAlignment="Left" Margin="12,117,0,0" VerticalAlignment="Top" Width="75" Click="LoadButton_Click">
             <Button.Background>
